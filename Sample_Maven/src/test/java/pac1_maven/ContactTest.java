@@ -21,5 +21,10 @@ public class ContactTest {
 	public void modifyContactTest()
 	{
 		System.out.println("modifyContactTest");
+		String bowser = System.getProperty("browser");
+		String url = System.getProperty("url");
+		
+		System.out.println(bowser);
+		System.out.println(url);
 	}
 }
