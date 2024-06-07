@@ -4,19 +4,17 @@ import org.testng.annotations.Test;
 
 public class OrgTest {
 
-	public class ContactTest {
-
-		@Test
+		@Test(groups = "smoke")
 		public void createOrgTest()
 		{
 			System.out.println("createOrgTest");
 		
 		}
 
-		@Test
+		@Test(groups = "regression")
 		public void modifyOrgTest()
 		{
 			System.out.println("modifyOrgTest");
 		}
-	}
+	
 }

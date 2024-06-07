@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-07T11:20:01Z" name="Suite" finished-at="2024-06-07T11:20:01Z" duration-ms="62">
+    <groups>
+      <group name="regression">
+        <method signature="ContactTest.modifyContactTest()[pri:0, instance:pac1_maven.ContactTest@72bc6553]" name="modifyContactTest" class="pac1_maven.ContactTest"/>
+        <method signature="OrgTest.modifyOrgTest()[pri:0, instance:pac2_maven.OrgTest@536f2a7e]" name="modifyOrgTest" class="pac2_maven.OrgTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-06-07T11:20:01Z" name="Test" finished-at="2024-06-07T11:20:01Z" duration-ms="62">
+      <class name="pac2_maven.OrgTest">
+        <test-method signature="modifyOrgTest()[pri:0, instance:pac2_maven.OrgTest@536f2a7e]" started-at="2024-06-07T11:20:01Z" name="modifyOrgTest" finished-at="2024-06-07T11:20:01Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- pac2_maven.OrgTest -->
+      <class name="pac1_maven.ContactTest">
+        <test-method signature="modifyContactTest()[pri:0, instance:pac1_maven.ContactTest@72bc6553]" started-at="2024-06-07T11:20:01Z" name="modifyContactTest" finished-at="2024-06-07T11:20:01Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+      </class> <!-- pac1_maven.ContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
