@@ -8,6 +8,9 @@ public class ContactTest {
 	public void createContactTest()
 	{
 		System.out.println("createContactTest");
+		
+		String bowser = System.getProperty("browser");
+		System.out.println(bowser);
 	
 	}
 
